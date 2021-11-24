@@ -115,3 +115,12 @@ clock = pygame.time.Clock()
 # Create the screen object
 # The size is determined by the constant SCREEN_WIDTH and SCREEN_HEIGHT
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
+
+# Create custom events for adding a new enemy and cloud
+ADDENEMY = pygame.USEREVENT + 1
+pygame.time.set_timer(ADDENEMY, 250)
+ADDCLOUD = pygame.USEREVENT + 2
+pygame.time.set_timer(ADDCLOUD, 1000)
+
+# Create our 'player'
+player = Player()
