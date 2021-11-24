@@ -1,17 +1,43 @@
 Initalize pygame [X]
+
 Set up display [X]
+
+  -Flip to screen[]
+  
 Set up Game Loop [X]
+
   -Process user input [X]
+  
   -Update the state of all game objects[X]
+  
   -Update the display and audio output[X]
+  
   -Maintain the speed of the game[X]
+  
 Set up Sprites (AKA objects)[X]
+
   -User input[X]
+  
   -Enemies[X]
+  
+    --Enemy Position Update [X]
+    
   -Images[X]
+  
   -Background Images[X]
+  
+  -Cloud Position Update[X]
+  
+  -Draw Sprites[]
+  
 Put sprites into groups[X]
+
 Set up Custom Events[X]
-Get collision working[X]
+
+Get collision working[]
+
+  -Check if enemies have collided with player[]
+  
 Set Game Speed[X]
+
 Sound Effects[X]
