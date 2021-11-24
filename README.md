@@ -1,2 +1,2 @@
-# 2D-Side-Scrolling-Game
-This game will be a simple 2D side scroller game like Mario or Sonic.
+# Simple 2D Game
+This game will be a simple 2D game similar to the old game Asteroids.
