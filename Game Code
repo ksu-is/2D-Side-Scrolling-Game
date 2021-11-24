@@ -101,3 +101,13 @@ class Cloud(pygame.sprite.Sprite):
         self.rect.move_ip(-5, 0)
         if self.rect.right < 0:
             self.kill()
+
+
+# Setup for sounds, defaults are good
+pygame.mixer.init()
+
+# Initialize pygame
+pygame.init()
+
+# Setup the clock for a decent framerate
+clock = pygame.time.Clock()
